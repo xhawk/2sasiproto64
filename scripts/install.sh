@@ -12,7 +12,7 @@ apt-get install zip -y
 
 apt-get install nodejs -y
 apt-get install build-essential -y
-apt-get install python-software-properties
+apt-get install python-software-properties -y
 add-apt-repository ppa:ubuntu-toolchain-r/test
 apt-get update
 apt-get install gcc-4.8
