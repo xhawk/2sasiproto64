@@ -26,6 +26,6 @@ wget https://services.gradle.org/distributions/gradle-2.7-bin.zip -P /etc
 unzip /etc/gradle-2.7-bin.zip -d /etc
 mv /etc/gradle-2.7 /etc/gradle
 
-echo "/etc/gradle/bin:"$PATH | sudo tee /etc/environment
+echo "PATH=\"/etc/gradle/bin:"$PATH"\"" | sudo tee /etc/environment
 
 # You can install anything you need here.
