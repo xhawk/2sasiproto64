@@ -10,7 +10,12 @@ apt-get install vim -y
 apt-get install zip -y
 
 apt-get install nodejs -y
-sudo apt-get install build-essential -y
+apt-get install build-essential -y
+apt-get install python-software-properties
+add-apt-repository ppa:ubuntu-toolchain-r/test
+apt-get update
+apt-get install gcc-4.8
+update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
 
 apt-get install openjdk-7-jdk -y
 
