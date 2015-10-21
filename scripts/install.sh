@@ -3,7 +3,7 @@
 # Setup the the box. This runs as root
 curl -L https://www.opscode.com/chef/install.sh | sudo bash
 
-curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 
 apt-get -y install curl
 apt-get -y install wget
