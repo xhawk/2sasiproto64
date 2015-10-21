@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Setup the the box. This runs as root
+curl -L https://www.opscode.com/chef/install.sh | sudo bash
 
 curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -
 
