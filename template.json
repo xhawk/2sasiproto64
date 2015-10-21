@@ -1,6 +1,6 @@
 {
     "push": {
-      "name": "",
+      "name": "xhawk/2sasi_proto",
       "vcs": true
     },
     "variables": {
@@ -67,7 +67,7 @@
             "artifact_type": "vagrant.box",
             "metadata": {
                 "provider": "virtualbox",
-                "version": "0.0.10"
+                "version": "0.0.11"
             }
         }]
     ]
